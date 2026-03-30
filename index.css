@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#reflexion,
+#reflexion-omar,
+#reflexion-deimer,
+#reflexion-jesus {
+  scroll-margin-top: 100px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.fixed-carousel {
+  height: 480px; /* ajusta a tu gusto */
+}
+
+.fixed-carousel .carousel-item {
+  height: 100%;
+}
+
+.fixed-carousel .carousel-item > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
